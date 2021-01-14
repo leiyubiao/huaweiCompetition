@@ -1,0 +1,11 @@
+#!/bin/bash
+chmod a+x $HOME/ros_ws/devel/_setup_util.py
+chmod a+x $HOME/ros_ws/src/bluetooth_bridge/src/bluetooth_bridge_server_node.py
+chmod a+x $HOME/ros_ws/src/bluetooth_bridge/src/serial_port_server_node.py
+chmod a+x $HOME/ros_ws/src/bluetooth_bridge/src/sound_server_node.py
+chmod a+x $HOME/ros_ws/src/car/launuch/fuck.launch
+chmod a+x $HOME/ros_ws/src/car/src/init.py
+chmod a+x $HOME/ros_ws/src/car/src/lanedet.py
+chmod a+x $HOME/ros_ws/src/car/src/servo.py
+chmod a+x $HOME/ros_ws/src/car/src/talker.py
+chmod a+x $HOME/ros_ws/src/car/src/traffic.py

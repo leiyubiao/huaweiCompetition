@@ -1,0 +1,13 @@
+#!/bin/bash
+echo HOME=$HOME
+cd $HOME/ros_ws/src
+catkin_create_pkg car std_msgs rospy roscpp
+# Something here # FIXME
+cd $HOME/ros_ws
+catkin_make
+echo "source $HOME/ros_ws/devel/setup.bash" >> $HOME/.bashrc
+source $HOME/.bashrc
+chmod a+x $HOME/ros_ws/src/bluetooth_bridge/src/bluetooth_bridge.py
+chmod a+x $HOME/ros_ws/src/bluetooth_bridge/src/serial_port_server_node.py
+chmod a+x $HOME/ros_ws/src/bluetooth_bridge/src/sound_server_node.py
+cd $HOME

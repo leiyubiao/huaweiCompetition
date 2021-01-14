@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+chmod a+x $HOME/ros_ws/src/car/src/talker.py
+roslaunch bluetooth_bridge bluetooth_bridge.launch
